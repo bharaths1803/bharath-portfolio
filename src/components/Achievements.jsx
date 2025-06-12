@@ -76,7 +76,7 @@ const Achievements = () => {
           {achievements.map((achievement, idx) => (
             <div
               key={achievement.id}
-              className="p-8 opacity-0 duration-300 shadow-md hover:shadow-lg transition-all rounded-xl bg-gray-900"
+              className="p-8 opacity-0 duration-300 shadow-md hover:shadow-lg transition-all rounded-xl bg-gray-900 hover:-translate-y-2"
               ref={(ele) => (achievementRefs.current[idx] = ele)}
               style={{
                 animationDelay: `${0.3 + 0.1 * idx}s`,
