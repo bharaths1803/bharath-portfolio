@@ -2,8 +2,11 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import Contact from "./components/Contact";
-import { useEffect } from "react";
 import { Toaster } from "react-hot-toast";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Hero from "./components/Hero";
+import Achievements from "./components/Achievements";
 
 function App() {
   return (
@@ -11,6 +14,10 @@ function App() {
       <Toaster />
       <Header />
       <main>
+        <Hero />
+        <Projects />
+        <Skills />
+        <Achievements />
         <Contact />
       </main>
       <Footer />
