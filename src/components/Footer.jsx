@@ -192,6 +192,7 @@ const Footer = () => {
               <a
                 href={navLink.href}
                 className="hover:text-blue-400 transition-colors"
+                key={navLink.name}
               >
                 {navLink.name}
               </a>

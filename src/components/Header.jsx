@@ -23,6 +23,7 @@ const Header = () => {
           scrollPostion <= sectionTop + sectionHeight
         )
           setActiveSection(sectionId);
+        console.log("Section id is", sectionId);
       });
     };
 
