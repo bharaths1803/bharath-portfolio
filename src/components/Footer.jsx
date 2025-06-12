@@ -1,3 +1,5 @@
+import { navLinks } from "../data";
+
 const Footer = () => {
   return (
     <footer className="bg-gray-900 py-12 text-white">
@@ -186,24 +188,14 @@ const Footer = () => {
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
           <div className="flex justify-center space-x-6">
-            <a href="#home" className="hover:text-blue-400 transition-colors">
-              Home
-            </a>
-            <a
-              href="#projects"
-              className="hover:text-blue-400 transition-colors"
-            >
-              Projects
-            </a>
-            <a href="#skills" className="hover:text-blue-400 transition-colors">
-              Skills
-            </a>
-            <a
-              href="#contact"
-              className="hover:text-blue-400 transition-colors"
-            >
-              Contact
-            </a>
+            {navLinks.map((navLink, idx) => (
+              <a
+                href={navLink.href}
+                className="hover:text-blue-400 transition-colors"
+              >
+                {navLink.name}
+              </a>
+            ))}
           </div>
         </div>
       </div>
