@@ -162,4 +162,25 @@ export const projects = [
     link: "https://churn-catcher.vercel.app/",
     github: "https://github.com/bharaths1803/churn-catcher",
   },
+  {
+    id: 7,
+    title: "MiniLink",
+    description:
+      "A smart URL shortener with click analytics, device tracking, geo insights, and custom short links.",
+    technologies: [
+      "React",
+      "NextJs",
+      "Postgres",
+      "Prisma",
+      "Typescript",
+      "TailwindCSS",
+      "Recharts",
+      "qrcode",
+    ],
+    imageUrl:
+      "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+
+    link: "https://minilink-pi.vercel.app",
+    github: "https://github.com/bharaths1803/minilink",
+  },
 ];
