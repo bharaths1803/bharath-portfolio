@@ -183,4 +183,25 @@ export const projects = [
     link: "https://minilink-pi.vercel.app",
     github: "https://github.com/bharaths1803/minilink",
   },
+  {
+    id: 8,
+    title: "SupaVault",
+    description:
+      "A secure file storage and sharing platform using Supabase Storage, with OTP-based login/signup, file categorization, and sharing.",
+    technologies: [
+      "Next.js",
+      "React",
+      "Typescript",
+      "TailwindCSS",
+      "PostgreSQL",
+      "Prisma",
+      "Supabase",
+      "React Email",
+      "nodemailer",
+    ],
+    imageUrl:
+      "https://images.pexels.com/photos/159519/back-to-school-paper-colored-paper-stationery-159519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    link: "https://supavault.vercel.app", // Replace with actual deployed link if different
+    github: "https://github.com/bharaths1803/supavault", // Replace if repo URL differs
+  },
 ];
